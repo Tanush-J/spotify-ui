@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/eefca83aa3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="singlePlaylist.css" />
+    <title>Music Player</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <a class="logo" href="#"><img src="assets/ninja-studio-logo.png" alt="logo" /></a>
+        <nav class="primary-navigation">
+          <ul role="list" class="nav-list">
+            <li><a href="#">Favourites</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+        <form class="search-bar" action="">
+          <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <input type="search" placeholder="Search" />
+          <button class="btn-mic"><i class="fa-solid fa-microphone"></i></button>
+        </form>
+        <div class="bell-icon"><i class="fa-solid fa-bell"></i></div>
+        <div class="profile-icon"><img src="assets/profile-pic.jpg" alt="profile pic" /></div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="hero-section">
+          <div class="artist-image">
+            <img src="assets/coldplay.jpg" alt="artist image">
+          </div>
+          <div class="about-artist">
+            <div class="content">
+              <div class="heading">
+                <h2>ColdPlay</h2>
+                <span>851 Followers</span>
+              </div>
+              <p>British Band</p>
+              <p>Coldplay are a British rock band formed in London in 1997. They consist of vocalist and pianist Chris Martin, guitarist Jonny Buckland, bassist Guy Berryman, drummer Will Champion and manager Phil Harvey. They initially met at University College London, calling themselves Big Fat Noises and changing to Starfish, before settling on the current name.</p>
+            </div>
+            <div class="options">
+              <div class="interactive-btn">
+                <button>Play All</button>
+                <span>Follow</span>
+              </div>
+              <p>247 Tracks | 128 Albums</p>
+            </div>
+          </div>
+        </section>
+        <section class="songs-list-section">
+          <ol role="list">
+            <li>
+              <span class="item-marker">01</span>
+              <div class="item-image">
+                <img src="assets/mirag.jpg" alt="song-img" />
+              </div>
+              <div class="item-content">
+                <h4>Mirage</h4>
+                <p>Else</p>
+              </div>
+              <div class="item-options">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <span class="item-marker"><i class="fa-solid fa-chart-simple"></i></span>
+              <div class="item-image">
+                <img src="assets/flower.jpg" alt="song-img" />
+              </div>
+              <div class="item-content">
+                <h4>Worry Bout Us</h4>
+                <p>Rosie Lowe</p>
+              </div>
+              <div class="item-options">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <span class="item-marker">03</span>
+              <div class="item-image">
+                <img src="assets/onism-img.jpg" alt="song-img" />
+              </div>
+              <div class="item-content">
+                <h4>New Skin</h4>
+                <p>Flume</p>
+              </div>
+              <div class="item-options">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <span class="item-marker">04</span>
+              <div class="item-image">
+                <img src="assets/mirag.jpg" alt="song-img" />
+              </div>
+              <div class="item-content">
+                <h4>Mirage</h4>
+                <p>Else</p>
+              </div>
+              <div class="item-options">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <span class="item-marker">05</span>
+              <div class="item-image">
+                <img src="assets/flower.jpg" alt="song-img" />
+              </div>
+              <div class="item-content">
+                <h4>Worry Bout Us</h4>
+                <p>Rosie Lowe</p>
+              </div>
+              <div class="item-options">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <span class="item-marker">06</span>
+              <div class="item-image">
+                <img src="assets/onism-img.jpg" alt="song-img" />
+              </div>
+              <div class="item-content">
+                <h4>New Skin</h4>
+                <p>Flume</p>
+              </div>
+              <div class="item-options">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </div>
+      <aside>
+        <div class="similar-artist-container">
+          <div class="header">
+            <h2>Similar Artists</h2>
+            <span>View All</span>
+          </div>
+          <div class="song-expand-cards">
+            <div class="item">
+              <div class="item-image">
+                <img src="assets/onism-img.jpg" alt="song image" />
+              </div>
+              <div class="item-content">
+                <h4>Onism</h4>
+                <p>AUG 11, 2017</p>
+              </div>
+              <div class="item-options">
+                <div class="btn-grp">
+                  <button><i class="fa-solid fa-ellipsis"></i></button>
+                  <ul class="dropdown">
+                    <li><span>Play Now</span></li>
+                    <li><span>Add To Queue</span></li>
+                    <li><span>Add To Favourites</span></li>
+                    <li><span>Get Info</span></li>
+                  </ul>
+                </div>
+                <p>4:44</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-image">
+                <img src="assets/onism-img.jpg" alt="song image" />
+              </div>
+              <div class="item-content">
+                <h4>Onism</h4>
+                <p>AUG 11, 2017</p>
+              </div>
+              <div class="item-options">
+                <button><i class="fa-solid fa-ellipsis"></i></button>
+                <p>4:44</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-image">
+                <img src="assets/onism-img.jpg" alt="song image" />
+              </div>
+              <div class="item-content">
+                <h4>Onism</h4>
+                <p>AUG 11, 2017</p>
+              </div>
+              <div class="item-options">
+                <button><i class="fa-solid fa-ellipsis"></i></button>
+                <p>4:44</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recently-played-container">
+          <div class="header">
+            <h2>Recently Played</h2>
+            <span>View All</span>
+          </div>
+          <div class="container">
+            <ol role="list">
+              <li>
+                <span class="item-marker">01</span>
+                <div class="item-image">
+                  <img src="assets/mirag.jpg" alt="song-img" />
+                </div>
+                <div class="item-content">
+                  <h4>Mirage</h4>
+                  <p>Else</p>
+                </div>
+                <div class="item-options">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </li>
+              <li>
+                <span class="item-marker"><i class="fa-solid fa-chart-simple"></i></span>
+                <div class="item-image">
+                  <img src="assets/flower.jpg" alt="song-img" />
+                </div>
+                <div class="item-content">
+                  <h4>Worry Bout Us</h4>
+                  <p>Rosie Lowe</p>
+                </div>
+                <div class="item-options">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </li>
+              <li>
+                <span class="item-marker">03</span>
+                <div class="item-image">
+                  <img src="assets/onism-img.jpg" alt="song-img" />
+                </div>
+                <div class="item-content">
+                  <h4>New Skin</h4>
+                  <p>Flume</p>
+                </div>
+                <div class="item-options">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </li>
+              <li>
+                <span class="item-marker">04</span>
+                <div class="item-image">
+                  <img src="assets/mirag.jpg" alt="song-img" />
+                </div>
+                <div class="item-content">
+                  <h4>Mirage</h4>
+                  <p>Else</p>
+                </div>
+                <div class="item-options">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </li>
+              <li>
+                <span class="item-marker">05</span>
+                <div class="item-image">
+                  <img src="assets/flower.jpg" alt="song-img" />
+                </div>
+                <div class="item-content">
+                  <h4>Worry Bout Us</h4>
+                  <p>Rosie Lowe</p>
+                </div>
+                <div class="item-options">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </li>
+              <li>
+                <span class="item-marker">06</span>
+                <div class="item-image">
+                  <img src="assets/onism-img.jpg" alt="song-img" />
+                </div>
+                <div class="item-content">
+                  <h4>New Skin</h4>
+                  <p>Flume</p>
+                </div>
+                <div class="item-options">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="song-detail">
+          <div class="song-image">
+            <img src="assets/mirag.jpg" alt="song-image">
+          </div>
+          <div class="song-name">
+            <h5>Imagine by John</h5>
+            <p>John Lennon</p>
+          </div>
+          <div class="song-options">
+            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="fa-solid fa-ban"></i></span>
+          </div>
+        </div>
+        <div class="player-controls">
+          <div class="controls">
+            <button><i class="fa-solid fa-shuffle"></i></button>
+            <button><i class="fa-solid fa-backward-step"></i></button>
+            <button><i class="fa-solid fa-play"></i></button>
+            <button><i class="fa-solid fa-forward-step"></i></i></button>
+            <button><i class="fa-solid fa-rotate-right"></i></button>
+          </div>
+          <div class="playback-bar">
+            <span>0:27</span>
+            <div class="bar-container">
+              <div class="bar-background">
+                <div class="progress-bar"></div>
+              </div>
+              <div class="progress-bar-marker"></div>
+            </div>
+            <span>3:05</span>
+          </div>
+        </div>
+        <div class="more-controls">
+          <button><i class="fa-solid fa-list-ul"></i></button>
+          <button><i class="fa-solid fa-computer"></i></button>
+          <div class="volume-container">
+            <button><i class="fa-solid fa-volume-low"></i></button>
+            <div class="volume-control">
+              <div class="bar-container">
+                <div class="bar-background">
+                  <div class="progress-bar"></div>
+                </div>
+                <div class="progress-bar-marker"></div>
+              </div>
+            </div>
+          </div>
+          <button><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
